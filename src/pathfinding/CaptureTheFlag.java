@@ -9,6 +9,12 @@ import java.awt.event.KeyEvent;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 
+/**
+ * Entry point to the program. Sets up the AI, handles
+ * per-turn rendering, and does the game logic.
+ *  
+ * @author https://github.com/Sharbal
+ */
 public class CaptureTheFlag extends Game{
 		
 	private final static Color RED_TRANSP = new Color(1f, 0f, 0f, 0.5f);

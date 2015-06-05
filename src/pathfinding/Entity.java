@@ -1,5 +1,11 @@
 package pathfinding;
 
+/**
+ * Describes a very basic entity with some convenience 
+ * functions
+ * 
+ * @author https://github.com/Sharbal
+ */
 public class Entity {
 	
 	protected float x, y;

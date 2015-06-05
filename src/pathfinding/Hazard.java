@@ -1,5 +1,11 @@
 package pathfinding;
 
+/**
+ * Describes a hazard term, and is able
+ * to get its effect at any point.
+ * 
+ * @author https://github.com/Sharbal
+ */
 public class Hazard extends Entity{
 
 	protected float f, c, r, a = 0.05f;

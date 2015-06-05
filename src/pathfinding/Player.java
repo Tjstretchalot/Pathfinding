@@ -1,6 +1,11 @@
 package pathfinding;
 
-
+/**
+ * Describes a player, similar to a hazard but with
+ * a set speed.
+ * 
+ * @author https://github.com/Sharbal
+ */
 public class Player extends Hazard {
 
 	private float speed;

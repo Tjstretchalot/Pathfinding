@@ -2,6 +2,14 @@ package pathfinding;
 
 import java.util.ArrayList;
 
+/**
+ * Describes an AI with some minimal logic, such as
+ * fixing speeds when set to invincible. Also handles targetting
+ * effects through both dynamic hazards (other AI's) and static
+ * hazards (goal points, etc.)
+ * 
+ * @author https://github.com/Sharbal
+ */
 public class AI extends Hazard{
 	
 	private float maxSpeed, speed, k = 2.5f;

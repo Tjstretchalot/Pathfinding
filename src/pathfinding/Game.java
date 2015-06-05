@@ -13,6 +13,12 @@ import java.awt.font.FontRenderContext;
 
 import javax.swing.JPanel;
 
+/**
+ * Convenience wrapper around a graphics manager - allows for
+ * having top-level mouse events and does the timing for ticking.
+ * 
+ * @author https://github.com/Sharbal
+ */
 public abstract class Game {
 	
 	private GraphicsManager gm;

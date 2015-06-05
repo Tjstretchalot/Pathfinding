@@ -9,6 +9,11 @@ import java.awt.image.BufferStrategy;
 
 import javax.swing.JFrame;
 
+/**
+ * Convenience wrapper around a JFrame.
+ * 
+ * @author https://github.com/Sharbal
+ */
 public class GraphicsManager {
 	
 	private GraphicsDevice device;
